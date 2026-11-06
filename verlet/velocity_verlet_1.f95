@@ -19,7 +19,6 @@ PROGRAM velocity_verlet
   ! than the default real type (typically 64 bits instead of 32).
   ! It provides approximately 15-16 significant decimal digits.
   ! The suffix d0 indicates a double-precision numerical literal.
-  ! It is useful in scientific computing to reduce rounding errors.
 
   ! Initial Positions
   x = 0.0d0
@@ -31,7 +30,6 @@ PROGRAM velocity_verlet
   vy = 0.0d0
   vz = 0.0d0
 
-  ! Column headings
   print *, "Step", "Time", "X", "Y", "Z"
 
   ! Velocity Verlet Algorithm
