@@ -15,11 +15,6 @@ PROGRAM velocity_verlet
   double precision :: x, y, z
   double precision :: vx, vy, vz
 
-  ! double precision stores real numbers with higher precision
-  ! than the default real type (typically 64 bits instead of 32).
-  ! It provides approximately 15-16 significant decimal digits.
-  ! The suffix d0 indicates a double-precision numerical literal.
-
   ! Initial Positions
   x = 0.0d0
   y = 0.0d0
